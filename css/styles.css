@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.center-children {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-background {
+  background: url(http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/Big%20Pacific/Photos/BigPacific_Promo_Thumb.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
